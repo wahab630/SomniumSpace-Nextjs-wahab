@@ -39,7 +39,7 @@ const Partners = () => {
                   <h1 className="partner-h1">High Fidelity JanusVR</h1>
                   <p className="partner-p">
                     We believe that the future of the VR space is in connectivity
-                    and interoperability between open social worlds. That’s why we
+                    and interoperability between open social worlds. That why we
                     partnered with HighFidelity and JanusVR on two groundbreaking
                     projects:
                   </p>
@@ -75,8 +75,8 @@ const Partners = () => {
                     In 2019 we partnered with Sony and their amazing 3D model
                     creation technology that allows our users to create full
                     embodiment avatars of themselves in minutes alongside any 3D
-                    models for Somnium Store. Sony’s VR store in Somnium Space was
-                    among the world’s first.
+                    models for Somnium Store. Sony VR store in Somnium Space was
+                    among the world first.
                   </p>
                 </div>
               </div>
@@ -96,9 +96,9 @@ const Partners = () => {
                   <h1 className="partner-h1">Polygon OpenSea</h1>
                   <p className="partner-p">
                     Our blockchain partners Polygon and OpenSea offer the best
-                    technology there is in their specific fields. OpenSea’s online
+                    technology there is in their specific fields. OpenSea online
                     platform is the largest marketplace for online collectibles,
-                    while Polygon’s unique second layer brings speed and close to
+                    while Polygon unique second layer brings speed and close to
                     zero transaction costs to our users for our in-game
                     transactions.
                   </p>

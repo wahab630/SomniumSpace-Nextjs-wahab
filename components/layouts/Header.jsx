@@ -77,12 +77,11 @@ const Header = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 offset-3">
-              <p>
+            <div className="col-lg-3 offset-3">            
                 <p className=" para2 ">
                   Join SOMNIUM<span className="red-in-h">WEB</span>
                 </p>
-              </p>
+              
             </div>
           </div>
         </div>

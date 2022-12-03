@@ -25,7 +25,7 @@ const Virtual = () => {
               <div className="col-lg-3 ">
                 <p className="virtual-p">
                   A VR world which is fully interconnected and seamless. Fully
-                  accessible from any device: PC & VR clients for user's Desktop
+                  accessible from any device: PC & VR clients for user Desktop
                   or an immersive VR experience on mobile devices.
                 </p>
               </div>
@@ -41,7 +41,7 @@ const Virtual = () => {
                     alt="no"
                   />
                 </div>
-                <p className="m-0">Chat, Build,</p>
+                <p className="m-0">Chat Build</p>
                 <p>Trade in dedicated Somnium PC client</p>
               </div>
               <div className="col-lg-4 text-center">
