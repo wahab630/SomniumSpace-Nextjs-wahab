@@ -22,7 +22,7 @@ const Partners = () => {
                   <h1 className="partner-h1">Somnium Space Admix</h1>
                   <p className="partner-p">
                     We work together to bring advertising revenues for our
-                    players. It's the best and fastest way to monetize your
+                    players. It the best and fastest way to monetize your
                     property, measure, analyze how your audience interacts in VR.
                   </p>
                 </div>
