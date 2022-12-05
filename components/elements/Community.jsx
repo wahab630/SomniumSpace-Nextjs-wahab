@@ -21,21 +21,21 @@ const Community = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-12 text-center">
+            <div className="col-lg-12  text-center">
               <div>
                 <FaDiscord className="community-icon mb-3" size={40} />
               </div>
               <div>
                 <iframe
                   src="https://e.widgetbot.io/channels/494994753146847233/496817347211034630"
-                  width="1200"
-                  height="400"
+                  
+                  className="community-discord"
                 ></iframe>
               </div>
             </div>
           </div>
           <div className="row mt-4 pb-5">
-            <div className="col-lg-5 text-center">
+            <div className="col-lg-5 text-center ">
               <div>
                 <FaTwitter className="community-icon mb-3" size={40} />
               </div>
@@ -46,12 +46,12 @@ const Community = () => {
                   frameborder="0"
                   allowtransparency="true"
                   allowfullscreen="true"
-                  class=""
+                  className="twitter-community  mx-auto"
                   style={{
                     position: "static",
                     visibility: "visible",
-                    width: "500px",
-                    height: "600px",
+                    width: "340px",
+                    height: "500px",
                     display: "block",
                   }}
                   title="Twitter Timeline"
@@ -59,7 +59,7 @@ const Community = () => {
                 ></iframe>
               </div>
             </div>
-            <div className="col-lg-5 offset-2 text-center">
+            <div className="col-lg-5 offset-2  text-center">
               <FaFacebookF className="community-icon mb-3" size={40} />
               <div></div>
             </div>

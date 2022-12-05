@@ -7,15 +7,14 @@
 .header {
     background-color: black;
     padding-top: 10px;
-    overflow: hidden;
+    // overflow: hidden;
     // padding-bottom: 10px;
     color: white;
     .top {
       ul > li {
         font-weight: 400;
       }
-    }
-  
+    }  
     .btn-blue {
       background-image: linear-gradient(180deg, #033047, #91dbff) !important;
       color: #fff;
@@ -26,8 +25,7 @@
       transition: all .4s linear;
       padding: 4px 20px;
       border-radius: 2rem;
-    }
-    
+    }    
     .para1{
       color: #fff;
       text-align: center;
@@ -82,6 +80,12 @@
       max-height: 41px;
       max-width: 140px;
     }
+    @media only screen and (max-width: 600px){
+      .one-h{
+display: none;
+      }
+    }
+   
   }
   // -------------------------------------------------Footer-----------------------
 .footer {
@@ -193,8 +197,8 @@
     padding-bottom: 100px;
   }
   .pc-img {
-    width: 640px;
-    height: 377px;
+    max-width: 640px;
+    max-height: 377px;
   }
   .virtual-2image {
     width: 265px;
@@ -210,6 +214,12 @@
   }
   .virtual-h3 {
     font-size: 54px;
+  }
+  @media only screen and (max-width: 600px){
+    .pc-img {
+      max-width: 340px;
+      max-height: 277px;
+    }
   }
 }
 //-----------------------------------------------InGame----------------------------
@@ -340,6 +350,18 @@
     border: 2px solid white;
     border-radius: 3rem;
     padding: 5px;
+  }
+  .community-discord{
+    width: 1100px;
+    height: 400px;
+     
+  }
+  @media only screen and (max-width: 600px){
+    .community-discord{
+      width: 300px;
+      height: 300px;
+       
+    }
   }
 }
 //------------------------------------------------BottomIcons-------------------

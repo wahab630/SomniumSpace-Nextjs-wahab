@@ -12,7 +12,7 @@ const Hero = () => {
           />
           <div className="container-fluid hero-content ">
             <div className="row  ">
-              <div className="col-lg-5 mt-5  offset-4  d-flex align-items-center mt-auto">
+              <div className="col-lg-5  d-sm-block d-none mt-5  offset-4  d-flex align-items-center mt-auto">
                 <div className="d-flex flex-column  ">
                   <div className="d-flex  justify-content-center ">
                     <div>
@@ -73,7 +73,7 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3  right text-center">
+              <div className="col-lg-3 d-sm-block d-none right text-center">
                 <div>
                   <img src="assets/unity.png" className="img-fluid" alt="no" />
                   <p className="pic-p ">UnitySDK</p>

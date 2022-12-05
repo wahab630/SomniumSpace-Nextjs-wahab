@@ -8,12 +8,14 @@ import Partners from "../components/elements/Partners";
 import Calenders from "../components/elements/Calenders";
 import Community from "../components/elements/Community";
 import BottomIcons from "../components/elements/BottomIcons";
+import HeroBelow from "../components/elements/HeroBelow";
 
 export default function Home() {
   return (
    <>
    <Header/>
    <Hero/>
+   <HeroBelow/>
    <Virtual/>
    <InGame/>
    <Partners/>

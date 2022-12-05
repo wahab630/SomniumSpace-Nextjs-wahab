@@ -28,7 +28,9 @@ const Footer = () => {
                 reserved.
               </p>
             </div>
-            <div className="col-lg-6 d-flex justify-content-between">
+            <div className="col-lg-6  d-md-block d-none">
+              <div className="d-flex justify-content-between">
+
               <div className=" pt-4">
                 <ul className="list-unstyled">
                   <li>Get Somnium</li>
@@ -52,6 +54,7 @@ const Footer = () => {
                   <li>FAQ</li>
                   <li>Contact</li>
                 </ul>
+              </div>
               </div>
             </div>
 

@@ -193,14 +193,14 @@ const Partners = () => {
               </div>
             </div>
           </div>
-          <div className="container-fluid">
+          <div className="container-fluid ">
             <div className="row last-patner py-4">
               <div className="col-lg-10 mx-auto ">
                 <div className="row">
-                  <div className="col-lg-3 ">
+                  <div className="col-lg-3 text-center text-sm-start">
                     <h1 className="patner-b-h1">Available Now</h1>
                   </div>
-                  <div className="col-lg-6  d-flex justify-content-evenly">
+                  <div className="col-lg-6  d-flex justify-content-evenly ">
                     <div>
                       <img
                       src="assets/window.png"
@@ -230,7 +230,7 @@ const Partners = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-lg-3 ">
+                  <div className="col-lg-3 text-center text-sm-start ">
                     <h1 className="patner-b-h1">Ready to Play</h1>
                   </div>
                 </div>

@@ -20,7 +20,7 @@ const Header = () => {
                     <img src="assets/logo1.png" alt="no" className="logo" />
                   </div>
                 </div>
-                <div className="col-lg-3 ">
+                <div className="col-lg-3 one-h ">
                   <ul className="list-unstyled  d-flex justify-content-evenly">
                     <li>Blockchain</li>
                     <li>Mechanics</li>
@@ -28,7 +28,7 @@ const Header = () => {
                     <li>Events</li>
                   </ul>
                 </div>
-                <div className="col-lg-4 ">
+                <div className="col-lg-4 one-h ">
                   <button className="btn rounded-pills btn-blue">
                     <span>Explore Somnium Map</span>
                   </button>
@@ -45,12 +45,12 @@ const Header = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 offset-2 mt-2  d-flex justify-content-evenly">
+            <div className="col-lg-4  offset-2 mt-2   d-flex justify-content-evenly">
               <div className="d-flex">
                 <p className="me-4 pb-0">Log In</p>
                 <p className="border-start ps-4 pb-0">Sign Up</p>
               </div>
-              <div>
+              <div className="d-sm-block d-none">
                 <ul className="list-unstyled d-flex justify-content-evenly ">
                   <li className="me-2 ">
                     {" "}
@@ -77,7 +77,7 @@ const Header = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 offset-3">            
+            <div className="col-lg-3 offset-3 one-h">            
                 <p className=" para2 ">
                   Join SOMNIUM<span className="red-in-h">WEB</span>
                 </p>
