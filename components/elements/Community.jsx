@@ -28,7 +28,6 @@ const Community = () => {
               <div>
                 <iframe
                   src="https://e.widgetbot.io/channels/494994753146847233/496817347211034630"
-                  
                   className="community-discord"
                 ></iframe>
               </div>
@@ -61,7 +60,16 @@ const Community = () => {
             </div>
             <div className="col-lg-5 offset-2  text-center">
               <FaFacebookF className="community-icon mb-3" size={40} />
-              <div></div>
+              <div>
+                <iframe
+                  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSomniumSpace&amp;tabs=timeline&amp;width=500&amp;height=600&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
+                  width="500"
+                  height="600"
+                  scrolling="no"
+                  frameborder="0"
+                  allow="encrypted-media"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
