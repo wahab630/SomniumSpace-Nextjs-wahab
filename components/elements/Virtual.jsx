@@ -33,7 +33,7 @@ const Virtual = () => {
         </div>
         <div className="container">
           <div className="row virtual-bottom">
-            <div className="col-lg-4 text-end">
+            <div className="col-lg-4 text-end virtual-to-top">
               <div>
                 <img
                   className="virtual-2image"
@@ -41,14 +41,14 @@ const Virtual = () => {
                   alt="no"
                 />
               </div>
-              <p className="m-0">Chat Build</p>
-              <p>Trade in dedicated Somnium PC client</p>
+              <p className="m-0 virtual-para">Chat Build</p>
+              <p className="m-0 virtual-para">Trade in dedicated Somnium PC client</p>
             </div>
             <div className="col-lg-4 text-center">
-              <p className="m-0">PC VR Mode</p>
-              <p>Live Inside Somnium World</p>
+              <p className="m-0 virtual-para">PC VR Mode</p>
+              <p className="m-0 virtual-para">Live Inside Somnium World</p>
             </div>
-            <div className="col-lg-4 text-center">
+            <div className="col-lg-4 text-center virtual-to-top">
               <div>
                 <img
                   className="virtual-2image"
@@ -56,8 +56,8 @@ const Virtual = () => {
                   alt="no"
                 />
               </div>
-              <p className="m-0">Oculus Quest</p>
-              <p>Compatible</p>
+              <p className="m-0 virtual-para">Oculus Quest</p>
+              <p className="m-0 virtual-para">Compatible</p>
             </div>
           </div>
         </div>

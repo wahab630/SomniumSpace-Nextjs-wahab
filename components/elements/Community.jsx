@@ -49,8 +49,8 @@ const Community = () => {
                   style={{
                     position: "static",
                     visibility: "visible",
-                    width: "340px",
-                    height: "500px",
+                    width: "330px",
+                    height: "400px",
                     display: "block",
                   }}
                   title="Twitter Timeline"
@@ -58,13 +58,13 @@ const Community = () => {
                 ></iframe>
               </div>
             </div>
-            <div className="col-lg-5 offset-2  text-center">
+            <div className="col-lg-5 offset-sm-2 offset-none  text-center">
               <FaFacebookF className="community-icon mb-3" size={40} />
               <div>
                 <iframe
                   src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSomniumSpace&amp;tabs=timeline&amp;width=500&amp;height=600&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
-                  width="500"
-                  height="600"
+                  width="320"
+                  height="400"
                   scrolling="no"
                   frameborder="0"
                   allow="encrypted-media"

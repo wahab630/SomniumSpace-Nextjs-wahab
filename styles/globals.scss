@@ -204,6 +204,15 @@ display: none;
     width: 265px;
     height: 230px;
   }
+  .virtual-to-top{
+    margin-top: -100px;
+  }
+  .virtual-para {
+    text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+    color: #fff !important;
+    font-size: 1.25rem;
+
+    font-weight: 400;}
   .virtual-p {
     text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
     color: #fff !important;
@@ -220,6 +229,42 @@ display: none;
       max-width: 340px;
       max-height: 277px;
     }
+    .container-fluid {
+      .virtual-top{
+        padding-top: 0px;
+      }
+    }
+    .virtual-to-top{
+      margin-top: 0px;
+    }
+    .virtual-p {
+      margin-top: 0px;
+    }
+  }
+}
+//---------------------------------------------Ethereum-----------------------------
+.Ethereum {
+  background-image: url("https://somniumspace.com/static/media/ownership-bg.1a32ec7b.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+  color: white;
+  height: 70vh;
+ 
+  .ethereum-img {
+    width: 210px;
+    height: 75px;
+  }
+  .ethereum-img-two {
+    width: 210px;
+    height: 97px;
+  }
+ 
+  h1 {
+    font-size: 46px;
+  }
+  h5 {
+    text-transform: uppercase;
   }
 }
 //-----------------------------------------------InGame----------------------------

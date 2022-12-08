@@ -9,6 +9,7 @@ import Calenders from "../components/elements/Calenders";
 import Community from "../components/elements/Community";
 import BottomIcons from "../components/elements/BottomIcons";
 import HeroBelow from "../components/elements/HeroBelow";
+import Ethereum from "../components/elements/Ethereum";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
    <Header/>
    <Hero/>
    <HeroBelow/>
+   <Ethereum/>
    <Virtual/>
    <InGame/>
    <Partners/>
